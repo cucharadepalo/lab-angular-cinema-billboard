@@ -1,6 +1,7 @@
 export interface IMovie {
   id: number,
   title: string,
+  slug: string,
   poster: string,
   synopsis: string,
   genres: Array<string>,

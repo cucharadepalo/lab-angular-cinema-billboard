@@ -11,10 +11,10 @@ export class CinemaService {
   getMovies() {
     return this.movies;
   }
-  getMovie(id) {
+  getMovie(slug) {
     let movie: object = {};
     for (let i = 0; i < this.movies.length; i++) {
-      if (this.movies[i].id === id) {
+      if (this.movies[i].slug === slug) {
         movie = this.movies[i];
         break;
       }

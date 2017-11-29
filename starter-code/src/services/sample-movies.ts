@@ -5,6 +5,7 @@ export const MOVIES: IMovie[] =
   {
     id: 1,
     title: "The Shawshank Redemption",
+    slug: "the-shawshank-redemption",
     poster: "https://i.imgur.com/SuW2ZlC.jpg",
     synopsis: "In 1947, Andy Dufresne (Tim Robbins), a banker in Maine, is convicted of murdering his wife and her lover, a golf pro. Since the state of Maine has no death…",
     genres: [
@@ -25,6 +26,7 @@ export const MOVIES: IMovie[] =
   }, {
     id: 2,
     title: "The Godfather",
+    slug: "the-godfather",
     poster: "https://i.imgur.com/Uzvny9I.jpg",
     synopsis: "In late summer 1945, guests are gathered for the wedding reception of Don Vito Corleone's daughter Connie (Talia Shire) and Carlo Rizzi (Gianni Russo). Vito…",
     genres: [
@@ -45,6 +47,7 @@ export const MOVIES: IMovie[] =
   }, {
     id: 3,
     title: "The Godfather Part II",
+    slug: "the-godfather-part-ii",
     poster: "https://i.imgur.com/abJNkWI.jpg",
     synopsis: "The Godfather Part II presents two parallel storylines. One involves Mafia chief Michael Corleone in 1958/1959 after the events of the first movie; the othe…",
     genres: [
@@ -65,6 +68,7 @@ export const MOVIES: IMovie[] =
   }, {
     id: 4,
     title: "The Dark Knight",
+    slug: "the-dark-knight",
     poster: "https://i.imgur.com/3jLPB46.jpg",
     synopsis: "The movie begins with a gang of men with clown masks breaking into the bank where the mob has a large portion of their money stashed. It begins with five cl…",
     genres: [
@@ -85,6 +89,7 @@ export const MOVIES: IMovie[] =
   }, {
     id: 5,
     title: "Schindler's List",
+    slug: "schindlers-list",
     poster: "https://i.imgur.com/IWZJOmu.jpg",
     synopsis: "The relocation of Polish Jews from surrounding areas to Krakow begins in late 1939, shortly after the outbreak of World War II, when the German Army defeats…",
     genres: [
@@ -105,6 +110,7 @@ export const MOVIES: IMovie[] =
   }, {
     id: 6,
     title: "Network",
+    slug: "network",
     poster: "https://i.imgur.com/H2jwZGe.jpg",
     synopsis: "A television network cynically exploits a deranged former anchor's ravings and revelations about the news media for its own profit.",
     genres: ["Drama", "Satire", "Media", "Political"],
@@ -123,6 +129,7 @@ export const MOVIES: IMovie[] =
   }, {
     id: 7,
     title: "Dr. Strangelove",
+    slug: "dr-strangelove",
     poster: "https://i.imgur.com/ZFoOV6J.jpg",
     synopsis: "An insane general triggers a path to nuclear holocaust that a war room full of politicians and generals frantically tries to stop.",
     genres: ["Comedy", "War", "Satire", "Political"],
