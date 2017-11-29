@@ -122,7 +122,7 @@ export const MOVIES: IMovie[] =
     room: 5
   }, {
     id: 7,
-    title: "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    title: "Dr. Strangelove",
     poster: "https://i.imgur.com/ZFoOV6J.jpg",
     synopsis: "An insane general triggers a path to nuclear holocaust that a war room full of politicians and generals frantically tries to stop.",
     genres: ["Comedy", "War", "Satire", "Political"],
