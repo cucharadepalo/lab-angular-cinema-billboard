@@ -1,3 +1,43 @@
-<p>
-  movies works!
-</p>
+<article class="movie-detail">
+  <div class="movie-poster">
+    <img [src]="movie.poster" [alt]="movie.title">
+  </div>
+  <div class="movie-wrapper">
+    <header class="movie-title">
+      <h2><small>Sala {{ movie.room}}</small> {{ movie.title }}</h2>
+    </header>
+    <section class="movie-plot">
+      <h4>Synopsis</h4>
+      <p>{{ movie.synopsis }}</p>
+      <h4>Cast</h4>
+      <ul>
+        <li *ngFor="let actor of movie.actors">{{ actor}}</li>
+      </ul>
+    </section>
+    <section class="movie-data">
+      <dl>
+        <dt>Genres</dt>
+        <dd>
+          <ul>
+            <li *ngFor="let genre of movie.genres">{{ genre }}</li>
+          </ul>
+        </dd>
+        <dt>Year</dt>
+        <dd>{{ movie.year }}</dd>
+        <dt>Director</dt>
+        <dd>{{ movie.director }}</dd>
+        <dt>Schedule</dt>
+        <dd>
+          <ul>
+            <li *ngFor="let hour of movie.hours">{{ hour }}</li>
+          </ul>
+        </dd>
+      </dl>
+    </section>
+    <footer class="movie-nav">
+      <nav>
+        <a routerLink="/" class="button">Back to movies list</a>
+      </nav>
+    </footer>
+  </div>
+</article>

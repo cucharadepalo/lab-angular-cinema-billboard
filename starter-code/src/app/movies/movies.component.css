@@ -1,0 +1,58 @@
+.movie-detail {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  min-width: 640px;
+}
+.movie-poster {
+  flex: 2 2 25%;
+}
+.movie-wrapper {
+  display: flex;
+  flex: 1 1 70%;
+  flex-wrap: wrap;
+}
+.movie-wrapper [class*="movie-"]{
+  padding: 0 0 0 30px;
+  box-sizing: border-box;
+}
+.movie-title {
+  flex-basis: 100%;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.movie-title h2 {
+  margin: 0;
+}
+.movie-title small {
+  font-size: 50%;
+  font-weight: 400;
+  color: #777;
+  text-transform: uppercase;
+}
+.movie-data {
+  flex: 2 2 40%;
+}
+.movie-plot {
+  flex: 1 1 60%;
+}
+dt, h4 {
+  color: #777;
+  font-size: 80%;
+  font-weight: 400;
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+dd {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.movie-plot p {
+  margin-top: 0;
+}
+.movie-wrapper ul {
+  list-style-type: square;
+  padding-left: 0;
+  list-style-position: inside;
+}

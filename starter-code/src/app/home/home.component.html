@@ -1,3 +1,11 @@
-<p>
-  home works!
-</p>
+<div class="movie-list">
+  <div class="movie" *ngFor="let movie of movies" [style.flex-basis]="getWidth()">
+    <p class="movie-room">Sala {{ movie.room }}</p>
+    <a [routerLink]="['/movie', movie.id]" class="movie-link">
+      <div class="movie-poster">
+        <img [src]="movie.poster" [alt]="movie.title">
+      </div>
+      <h3 class="movie-title">{{ movie.title}}</h3>
+    </a>
+  </div>
+</div>

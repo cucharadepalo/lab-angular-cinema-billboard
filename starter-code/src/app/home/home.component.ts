@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CinemaService } from '../../services/cinema.service';
 
 @Component({
   selector: 'app-home',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  movies: object[];
 
-  constructor() { }
+  constructor(private cinema: CinemaService) { }
 
   ngOnInit() {
+    this.movies = this.cinema.getMovies();
+  }
+
+  getWidth() {
+    return `${Math.floor(100 / this.movies.length)}%`;
   }
 
 }

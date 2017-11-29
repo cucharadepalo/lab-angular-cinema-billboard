@@ -21,7 +21,7 @@ export const MOVIES: IMovie[] =
       "Gil Bellows"
     ],
     hours: ["19:30", "22:30"],
-    room: 5
+    room: 1
   }, {
     id: 2,
     title: "The Godfather",
@@ -40,8 +40,8 @@ export const MOVIES: IMovie[] =
       "Robert Duvall",
       "Sterling Hayden"
     ],
-    hours: ["21:00"],
-    room: 4
+    hours: ["19:00"],
+    room: 2
   }, {
     id: 3,
     title: "The Godfather Part II",
@@ -60,8 +60,8 @@ export const MOVIES: IMovie[] =
       "John Cazale",
       "Talia Shire"
     ],
-    hours: ["23:45"],
-    room: 4
+    hours: ["22:15"],
+    room: 2
   }, {
     id: 4,
     title: "The Dark Knight",
@@ -81,7 +81,7 @@ export const MOVIES: IMovie[] =
       "Gary Oldman"
     ],
     hours: ["18:00", "20:00", "22:00"],
-    room: 1
+    room: 3
   }, {
     id: 5,
     title: "Schindler's List",
@@ -101,11 +101,11 @@ export const MOVIES: IMovie[] =
       "Embeth Davidtz"
     ],
     hours: ["18:00", "20:30", "23:00"],
-    room: 2
+    room: 4
   }, {
     id: 6,
     title: "Network",
-    poster: "https://imgur.com/a/ePvk3",
+    poster: "https://i.imgur.com/H2jwZGe.jpg",
     synopsis: "A television network cynically exploits a deranged former anchor's ravings and revelations about the news media for its own profit.",
     genres: ["Drama", "Satire", "Media", "Political"],
     year: 1976,
@@ -119,11 +119,11 @@ export const MOVIES: IMovie[] =
       "Ned Beatty"
     ],
     hours: ["18:00"],
-    room: 3
+    room: 5
   }, {
     id: 7,
     title: "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
-    poster: "https://imgur.com/a/aFkCE",
+    poster: "https://i.imgur.com/ZFoOV6J.jpg",
     synopsis: "An insane general triggers a path to nuclear holocaust that a war room full of politicians and generals frantically tries to stop.",
     genres: ["Comedy", "War", "Satire", "Political"],
     year: 1964,
@@ -137,6 +137,6 @@ export const MOVIES: IMovie[] =
       "James Earl Jones"
     ],
     hours: ["20:00", "22.30"],
-    room: 3
+    room: 5
   }
 ]
